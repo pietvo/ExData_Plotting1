@@ -15,5 +15,5 @@ hh1$Time <- as.POSIXct(strptime(paste(hh1$Date, hh1$Time), "%d/%m/%Y %H:%M:%S"))
 
 png(filename = "plot2.png", width = 480, height = 480)
 plot(hh1$Time, hh1$Global_active_power, xlab="", 
-     ylab="Global Active Power (kiloWatts)", type="l")
+     ylab="Global Active Power (kilowatts)", type="l")
 dev.off()
